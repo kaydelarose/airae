@@ -13,7 +13,7 @@ async function seedProducts() {
         const database = client.db('airae');
         const collection = database.collection('products');
 
-        const rawData = fs.readFileSync('sunscreen.json');
+        const rawData = fs.readFileSync('sampleproducts.json');
         const products = JSON.parse(rawData);
 
         for (const product of products) {

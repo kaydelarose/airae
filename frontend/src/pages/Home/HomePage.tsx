@@ -46,10 +46,11 @@ function HomePage() {
                 <div className="description-content">
                     <h2>About Airae</h2>
                     <p>
-                        Airae is a weather-based skincare guide that recommends products tailored to your climate. 
-                        By considering factors like UV index, humidity, and air quality, Airae helps you make 
-                        informed choices for your skincare routine.
+                        Airae is a skincare guide that combines weather insights with a robust product filtering search engine. 
+                        Explore climate data, read case studies, and find skincare products tailored to your skin type and specific concerns. 
+                        Airae helps you make informed choices by providing a comprehensive platform for skincare research and discovery.
                     </p>
+
                 </div>
                 <div className="description-image">
                     <img src={serumImage} alt="Serum" className="serum-image"/>
