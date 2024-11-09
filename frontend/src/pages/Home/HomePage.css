@@ -1,0 +1,209 @@
+#hero {
+    position: relative;
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 60vh; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #fff;
+}
+
+.hero-overlay {
+    background-color: rgba(117, 197, 199, 0.8); 
+    padding: 2rem;
+    border-radius: 8px;
+    margin-left: 10%;
+    max-width: 27%; 
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #75c5c7;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #5aa3a5;
+}
+
+#weather-section {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.input-section, .weather-display {
+    flex: 1;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: left;
+}
+
+.location-inputs, .manual-coordinates {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.dropdown, .input-field, .fetch-button {
+    max-width: 300px;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.fetch-button {
+    background-color: #91dea1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fetch-button:hover {
+    background-color: #5ca8a9;
+}
+
+.weather-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.weather-card {
+    flex: 1 1 45%;
+    max-width: 150px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-api-credit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.weatherapi-icon {
+    margin-left: 0.5rem;
+    height: 30px;
+    width: auto;
+}
+
+
+.app-description-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-top: 2rem;
+}
+
+.description-content {
+    flex: 1;
+    max-width: 45%; 
+}
+
+.description-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 55%;
+}
+
+.serum-image {
+    width: 100%; 
+    max-height: 350px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.case-studies-container {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.case-study {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.references ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.references li {
+    margin: 0.5rem 0;
+}
+
+.references a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.references a:hover {
+    text-decoration: underline;
+}
+
+.references p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.weather-icon {
+    margin-right: 0.3rem;
+}
+
+
+
+
+

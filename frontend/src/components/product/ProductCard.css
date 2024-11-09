@@ -1,0 +1,41 @@
+.product-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.product-brand,
+.product-type,
+.product-price {
+    color: #777;
+    margin: 0.2rem 0;
+}
+
+.product-details {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.brand-link,
+.amazon-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #75c5c7;
+    text-decoration: none;
+}
+
+.brand-link:hover,
+.amazon-link:hover {
+    color: #5ba7a9;
+}

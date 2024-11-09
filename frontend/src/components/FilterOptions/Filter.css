@@ -1,0 +1,52 @@
+.filter-container {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 500px; 
+  width: 100%;
+  margin: 0 auto;
+}
+
+.filter-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.filter-group {
+  margin-bottom: 1rem;
+}
+
+.filter-label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.filter-select {
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.form-check-label {
+  margin-left: 0.25rem;
+}
+
+.btn-apply-filter {
+  width: 100%;
+  background-color: #75c5c7;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-apply-filter:hover {
+  background-color: #5ba7a9;
+}

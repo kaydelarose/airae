@@ -1,0 +1,25 @@
+.navbar {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: black !important; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+.nav-link {
+    color: black !important;
+    text-decoration: none; 
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: darkgray !important; 
+    background-color: transparent !important; 
+    text-decoration: underline; 
+}
+
+.nav-link:focus {
+    outline: none !important;
+}
