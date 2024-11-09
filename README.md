@@ -44,6 +44,12 @@ Follow the steps below to set up Airae on your local machine.
 - Node.js (for the frontend)
 - Java JDK 17+ (for the backend)
 - MongoDB Atlas (for a cloud-based MongoDB instance)
+- WeatherAPI Key (for real-time weather data)
+
+#### Creating a WeatherAPI Key:
+- Go to WeatherAPI and sign up for an account.
+- After logging in, navigate to the API keys section to create and obtain your API key.
+- Copy the key to use in the .env file in the backend setup.
 
 ## Installation
 
@@ -62,19 +68,25 @@ MONGO_PASS=<your_mongo_pass>
 WEATHER_API=<your_weather_api_key>
 ```
 
-3. **Install and Run the Application**
-- Use your IDE or run from the command lind:
+3. **Run Data Seeding**
+- Navigate to frontend directory to seed sample data into MongoDB:
+```bash
+node seedProducts.js
+```
+
+4. **Install and Run the Application**
+- Start the backend:
 ```bash
 ./mvnw spring-boot:run
 ```
-- Navigate to the frontend folder and install dependencies:
+- Start the frontend:
 ```bash
 cd ../frontend
 npm install
 npm run dev
 ```
 
-4. **Access the Application**
+5. **Access the Application**
 - Open your browser and go to http://localhost:5173
 
 
