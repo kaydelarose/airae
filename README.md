@@ -36,6 +36,15 @@ Airae is a skincare guide that offers robust product filtering based on skin typ
 - **GitKraken**: Git workflow management
 - **Postman**: API testing
 
+## Demos
+
+#### Filtering Product Demo
+![Filter-Demo](https://github.com/user-attachments/assets/89dde28e-1f44-407f-8d57-a49d59e0a56b)
+
+#### WeatherAPI Demo
+![WeatherAPI_Demo](https://github.com/user-attachments/assets/2a5df2b2-05d9-4cf6-a69d-0fb5a9a7a65a)
+
+
 ## Getting Started
 
 Follow the steps below to set up Airae on your local machine.
