@@ -38,12 +38,11 @@ Airae is a skincare guide that offers robust product filtering based on skin typ
 
 ## Demos
 
-#### Filtering Product Demo
-![Filter-Demo](https://github.com/user-attachments/assets/89dde28e-1f44-407f-8d57-a49d59e0a56b)
-
 #### WeatherAPI Demo
 ![WeatherAPI_Demo](https://github.com/user-attachments/assets/2a5df2b2-05d9-4cf6-a69d-0fb5a9a7a65a)
 
+#### Filtering Product Demo
+![Filter-Demo](https://github.com/user-attachments/assets/89dde28e-1f44-407f-8d57-a49d59e0a56b)
 
 ## Getting Started
 
@@ -106,4 +105,8 @@ npm run dev
 ## Acknowledgements
 
  - Special thanks to [WeatherAPI](https://www.weatherapi.com/)
- - Product data sourced from reliable skincare brands
+ - Official Skincare Brand Websites: For sourcing accurate product data and ensuring the information reflects real-world offerings.
+ - American Academy of Dermatology (AAD): For providing trusted information on skincare best practices, ingredient knowledge, and product recommendations.
+ - Skin Cancer Foundation: For their invaluable guidance on sun protection and sunscreen recommendations, which informed product filtering and suggestions.
+ - Scientific Research and Case Studies: For insights into active ingredients, dermatological findings, and skincare routines that address various skin concerns.
+ - Open Source Tools and Libraries: Including React, Redux Toolkit, Bootstrap, Axios, and Chart.js, which were integral to building and designing the application.
