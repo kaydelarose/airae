@@ -97,11 +97,6 @@ npm run dev
 5. **Access the Application**
 - Open your browser and go to http://localhost:5173
 
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
 ## Acknowledgements
 
  - Special thanks to [WeatherAPI](https://www.weatherapi.com/)
